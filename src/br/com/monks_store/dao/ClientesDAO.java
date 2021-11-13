@@ -182,7 +182,7 @@ public class ClientesDAO {
             
             return obj;
             
-        } catch (Exception e) {
+        } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "Cliente não encontrado!");
             return null;
         }
@@ -218,7 +218,7 @@ public class ClientesDAO {
             
             return obj;
             
-        } catch (Exception e) {
+        } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "Cliente não encontrado!");
             return null;
         }
